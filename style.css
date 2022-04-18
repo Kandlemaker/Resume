@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700&display=swap');
+body {
+    background-image: url(images/Sunrise-bg.jpg);
+    background-size: cover;
+    font-family: Jost;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3vw;
+    width: 55vw;
+    height: 20vw;
+    margin: 15vw 30% 10vw 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+#card {
+    width: fit-content;
+    border-radius: 3vw;
+    margin-left: 3vw;
+    flex-direction: column;
+    text-decoration-color: white;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+#info {
+    justify-self: right;
+    font-weight: 100;
+}
+
+#perf {
+    border-radius: 3vw;
+}
+
+.link {
+    color: rgb(243, 177, 10);
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+p {
+    font-weight: 100;
+    font-size: 2vw;
+}
+
+#text {
+    margin: 0px 10vw 0px 10vw;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+#lang {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: flex-start;
+}
+
+.languages {
+    margin: 10vw 0vw 10vw 5vw;
+    width: 45vw;
+    background: rgba(255, 255, 255, 0.302);
+    border-radius: 3vw;
+    padding: 3vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.projects {
+    text-align: center;
+    width: 30vw;
+    height: 16vw;
+    margin: 10vw 0vw 10vw 5vw;
+    background: rgba(0, 0, 0, 0.343);
+    border-radius: 3vw;
+}
+
+#git {
+    font-size: 2vw;
+}
+
+#langtitle {
+    text-align: center;
+    font-family: Jost;
+    font-size: 3vw;
+}
+
+#l1,
+#l2,
+#l3,
+#l4 {
+    font-size: 1.8vw;
+    border-radius: 0.5vw;
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+#l1 {
+    background-color: rgb(10, 233, 10);
+}
+
+#l2 {
+    background: -webkit-linear-gradient(left, rgb(220, 253, 0) 92%, rgb(102, 102, 102) 92%, rgb(102, 102, 102));
+}
+
+#l3 {
+    background: -webkit-linear-gradient(left, rgb(255, 111, 0) 20%, rgb(102, 102, 102) 20%, rgb(102, 102, 102));
+}
+
+#l4 {
+    background: -webkit-linear-gradient(left, rgb(255, 0, 0) 7%, rgb(102, 102, 102) 7%, rgb(102, 102, 102));
+}
+
+.logo {
+    height: 2vw;
+}
+
+.competences {
+    font-weight: 100;
+    width: 40vw;
+}
+
+.competences1 {
+    text-align: right;
+    padding-right: 2vw;
+}
+
+.competences2 {
+    padding-left: 2vw;
+}
+
+footer {
+    font-weight: 100;
+    font-size: 2vw;
+}
